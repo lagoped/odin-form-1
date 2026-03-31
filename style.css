@@ -1,0 +1,37 @@
+:root {
+  --error-color: darkred;
+  --success-color: darkgreen;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 100dvh;
+}
+
+.banner {
+    flex-grow: 1;
+    border: black solid 3px;
+
+    background-image: url("/images/background_photo_annie_spratt.avif");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.banner-footer {
+    margin: 20px;
+}
+
+.form {
+    flex-grow: 4;
+}
