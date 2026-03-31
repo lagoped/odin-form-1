@@ -34,4 +34,19 @@
 
 .form {
     flex-grow: 4;
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-presentation-text {
+    max-width: 1000px;
+}
+
+.form-fields {
+    background-color: white;
+    box-shadow: black;
 }
