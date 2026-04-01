@@ -1,6 +1,7 @@
 :root {
-  --error-color: darkred;
-  --success-color: darkgreen;
+    --error-color: darkred;
+    --success-color: darkgreen;
+    --input-color: #596D48;
 }
 
 .main-body {
@@ -12,7 +13,7 @@
 
 .banner {
     flex-grow: 1;
-    border: black solid 3px;
+    border: black solid 1px;
 
     background-image: url("/images/background_photo_annie_spratt.avif");
     background-size: cover;
@@ -33,20 +34,65 @@
 }
 
 .form {
-    flex-grow: 4;
-    background-color: lightgray;
+    flex-grow: 2;
+    background-color: whitesmoke;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
 }
 
 .form-presentation-text {
     max-width: 1000px;
+    margin: 25px;
+}
+
+.form-body {
+    background-color: white;
+    box-shadow: 5.9px 11.8px 11.8px hsl(0deg 0% 0% / 0.32);
+}
+
+.form-title {
+    margin: 25px;
 }
 
 .form-fields {
-    background-color: white;
-    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 25px;
+}
+
+.form-inputs {
+    display: flex;
+    gap: 60px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-footer {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    button  {
+        background-color: var(--input-color);
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        box-shadow: 2px 5px 5px hsl(0deg 0% 0% / 0.12);
+        border: none;
+
+        width: 160px;
+        height: 40px;
+    }
+
+    a {
+        color: var(--input-color)
+    }
 }
