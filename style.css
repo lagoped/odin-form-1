@@ -23,7 +23,7 @@ body {
     border: black solid 1px;
     width: 33%;
 
-    background-image: url("/images/background_photo_annie_spratt.avif");
+    background-image: url("images/background_photo_annie_spratt.avif");
     background-size: cover;
 
     display: flex;
